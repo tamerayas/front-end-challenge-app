@@ -1,0 +1,257 @@
+body {
+  justify-content: center;
+  display: flex;
+}
+
+.parent-card {
+  margin-top: 20px;
+  width: 400px;
+  background: #f7f7f7;
+}
+
+.submit-card {
+  width: 90px;
+  height: 90px;
+  float: left;
+  background-color: #ececec;
+  text-align: center;
+}
+
+.submit-link {
+  text-align: center;
+  padding-top: 10%;
+}
+
+.plus {
+  margin-top: 15%;
+}
+
+.divider {
+  border-top: 5px solid #ececec;
+  margin-top: 20px;
+}
+
+.order-select {
+  margin-top: 15px;
+  width: 50%;
+  background-color: #ececec;
+}
+
+.list-card {
+  width: 90px;
+  height: 90px;
+  float: left;
+  text-align: center;
+  background-color: #ececec;
+}
+
+.list-card span span {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.list-detail {
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.list-detail h5 {
+  margin: 0;
+  margin-top: 22px;
+}
+
+.list-detail span {
+  cursor: pointer;
+  color: #8b8b8b;
+}
+
+.list-detail a {
+  cursor: pointer;
+  color: #8b8b8b;
+  text-decoration: none;
+}
+
+.list-detail h5 {
+  display: list-item;
+}
+
+.voting {
+  margin-top: 6px;
+}
+
+.voting span {
+  cursor: pointer;
+  color: #8b8b8b;
+  user-select: none;
+}
+
+.down-vote {
+  float: right;
+  margin-right: 70px;
+}
+
+.voting span i {
+  color: #bcbec0;
+  font-size: 25px;
+}
+
+.c-pointer {
+  cursor: pointer;
+}
+
+.pagination {
+  margin-top: 30px;
+  justify-content: center;
+  display: flex;
+}
+
+.page-link:hover {
+  color: #000000;
+  background-color: #ececec;
+}
+
+.page-link:focus {
+  border-color: #000000;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 0.1rem #000000;
+  color: #000000;
+}
+
+.pagination li a {
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pagination .page-item {
+  margin-right: 10px;
+}
+
+.page-link {
+  border: 0;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.add-to-list {
+  display: flex;
+}
+
+.add-to-list i {
+  font-size: 25px;
+}
+
+.add-to-list h6 {
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #000000;
+}
+
+.parent-list {
+  margin-top: 50px;
+  width: 400px;
+}
+
+.add-button {
+  float: right;
+  width: 100px;
+  background: #000000;
+}
+
+.empty-list {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.toast-body span {
+  color: #5aad5a;
+}
+
+.toast-style {
+  position: "absolute";
+  background-color: "#ddf9d3";
+  text-align: "center";
+}
+
+.list-parent:hover {
+  background: #f7f7f7;
+  cursor: pointer;
+}
+
+.delete {
+  color: red;
+  display: none;
+  cursor: pointer;
+  width: 27px;
+  margin-top: -10px;
+  margin-right: -10px;
+}
+
+.list-parent:hover .delete {
+  display: flex;
+  text-align: right;
+  justify-content: right;
+  float: right;
+}
+
+.fade:not(.show) {
+  opacity: 1;
+}
+
+.modal {
+  display: block;
+}
+
+.modal-body span {
+  display: flex;
+  justify-content: center;
+}
+
+.delete-element {
+  font-size: 34px;
+  font-weight: 900;
+}
+
+.modal.fade .modal-dialog {
+  transform: translate(0, -30px);
+}
+
+.modal-header {
+  background: black;
+  color: white;
+}
+
+.modal-header {
+  height: 20px;
+}
+
+.modal-header span {
+  font-size: 30px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.modal-footer {
+  border: 0;
+  justify-content: center;
+}
+
+.confirm-button {
+  background: #000000;
+  color: #ffffff;
+  width: 120px;
+  height: 40px;
+  font-weight: 700;
+}
+
+.btn-style {
+  margin-right: 100px;
+  font-weight: 700;
+}
+
+div#exampleModal {
+  backdrop-filter: brightness(0.3);
+}
